@@ -1,0 +1,24 @@
+{
+  "name": "restful-node-restify-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "ava --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^7.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "dotenv": "^7.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.16.0",
+    "restify-cors-middleware": "^1.1.1",
+    "sha1": "^1.1.1"
+  }
+}
